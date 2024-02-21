@@ -29,6 +29,7 @@ export default function ListToDoComponent() {
                         <th>Todo Title</th>
                         <th>Todo Description</th>
                         <th>Todo Complete</th>
+                        <th>Action</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -38,6 +39,9 @@ export default function ListToDoComponent() {
                                 <td>{todo.title}</td>
                                 <td>{todo.description}</td>
                                 <td>{todo.completed ? 'Yes' : 'No'}</td>
+                                <td>
+                                    <button></button>
+                                </td>
                             </tr>
                         ))
                     }
